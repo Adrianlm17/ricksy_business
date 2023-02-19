@@ -33,4 +33,8 @@ public class CreditCard {
         }
     }
 
+    public String cardOwner() {
+        return this.owner;
+    }
+
 }
