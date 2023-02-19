@@ -23,4 +23,4 @@ Las historias de usuario están enunciadas en el script principal ```RicksyBusin
 
 Sigue el diagrama de clase UML proporcionado para construir la aplicación. Si añades algún componente, dibújalo a mano alzada sobre el diagrama.
 
-![Diagrama_UML](./doc/diagrama_clases_20UML_.png)
+![Diagrama_UML](./doc/diagrama_clases_UML_.png)
