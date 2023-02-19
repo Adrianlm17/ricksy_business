@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 import org.junit.Before;
+import org.junit.Test;
 
 public class CreditCardTest {
     
@@ -15,4 +16,10 @@ public class CreditCardTest {
         assertNotNull("Card creada!", card);
     }
 
+    @Test
+    public void payTestOK() {
+        card.pay(3000);
+        assertEquals(0, card.credit(), 0);
+    }
+    
 }
